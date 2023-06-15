@@ -21,10 +21,11 @@
 
           buildInputs = [ pkgs.protobuf ];
           doCheck = true;
-          preBuild = ''
-            cargo add git-package --git https://github.com/mkatychev/crane_build_rs \
-              --package my-package --rev 02b264f
-          '';
+          # NOTE commented out workaround
+          # preBuild = ''
+          #   cargo add git-package --git https://github.com/mkatychev/crane_build_rs \
+          #     --package my-package --rev cfc475c
+          # '';
           cargoExtraArgs = "--package my-package";
         };
 
