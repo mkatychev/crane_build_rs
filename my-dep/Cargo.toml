@@ -1,0 +1,12 @@
+# ./my-workspace/my-package/Cargo.toml
+[package]
+name = "my-package"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+path = "src/main.rs"
+name = "my-app"
+
+[dependencies]
+git_crate = { git = "https://github.com/mkatychev/crane_build_rs", rev = "1234567" }

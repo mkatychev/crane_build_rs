@@ -1,0 +1,5 @@
+# ./my-workspace/my-package/Cargo.toml
+[package]
+name = "git-package"
+version.workspace = true
+edition.workspace = true
