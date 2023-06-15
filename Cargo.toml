@@ -4,7 +4,7 @@ edition = "2021"
 
 [workspace]
 members = [
-    "my-dep",
-    "git-crate",
+    "my-package",
+    "git-package",
 ]
 

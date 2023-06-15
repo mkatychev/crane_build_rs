@@ -1,4 +1,4 @@
 fn main() {
-    git_crate::ack();
+    git_package::ack();
     println!("hello!");
 }
