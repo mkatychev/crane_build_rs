@@ -20,7 +20,7 @@
           pname = "my-package";
 
           buildInputs = [ pkgs.protobuf ];
-          doCheck = false;
+          doCheck = true;
           cargoExtraArgs = "--package my-package";
         };
 
