@@ -7,8 +7,13 @@ name = "git-package"
 version = "0.1.0"
 
 [[package]]
+name = "git-package"
+version = "0.1.0"
+source = "git+https://github.com/mkatychev/crane_build_rs?rev=02b264f#02b264f0fed4c049a6385f13f05b161206d07e7a"
+
+[[package]]
 name = "my-package"
 version = "0.1.0"
 dependencies = [
- "git-package",
+ "git-package 0.1.0 (git+https://github.com/mkatychev/crane_build_rs?rev=02b264f)",
 ]

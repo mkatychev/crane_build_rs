@@ -8,4 +8,4 @@ path = "src/main.rs"
 name = "my-app"
 
 [dependencies]
-git-package = { path = "../git-package" }
+git-package = { git = "https://github.com/mkatychev/crane_build_rs", rev = "02b264f" }
